@@ -5,7 +5,7 @@ Este projeto abrange todos os tópicos abordados em sala de aula e tem como obje
 
 ## 🌐 UML
 
-inserir imagem
+imagem em produção
 
 ## 🖥️ Tecnologias
 
@@ -20,7 +20,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <tr>
     <td align="center"><a href="https://github.com/BrunaDev"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72671246?v=4" width="100px;" alt=""/><br /><sub><b>Bruna Magalhães</b></sub></a><br /><a href="https://github.com/BrunaDev" title="PROJETO DE POO">👩🏻‍💻</a></td>
     <td align="center"><a href="https://github.com/paulaapsilva"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/134807798?v=4" width="100px;" alt=""/><br /><sub><b>Paula Silva</b></sub></a><br /><a href="https://github.com/BrunaDev" title="PROJETO DE POO">👩🏻‍💻</a></td>
-    <td align="center"><a href="https://github.com/BrunaDev"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/72671246?v=4" width="100px;" alt=""/><br /><sub><b>Lara Mulharski</b></sub></a><br /><a href="https://github.com/BrunaDev" title="PROJETO DE POO">👩🏻‍💻</a></td>
+    <td align="center"><a href="https://github.com/BrunaDev"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/126370312?v=4" width="100px;" alt=""/><br /><sub><b>Lara Mulharski</b></sub></a><br /><a href="https://github.com/zGava" title="PROJETO DE POO">👩🏻‍💻</a></td>
 </table>
 
 ###### C125 - Programação Orientada a Objetos  -  Prof. Christopher Lima
