@@ -1,16 +1,20 @@
 package br.inatel.cdg;
 
-public class PratoPrincipal extends ItemMenu {
-  
-  private java.lang.String descricao;
-  
-  public PratoPrincipal(java.lang.String nome, double preco, java.lang.String descricao) {
-  }
-  
-  public java.lang.String getCategoria() {
-    return null;
-  }
-  
-  public void exibirDetalhes() {
-  }
+class PratoPrincipal extends ItemMenu {
+    private final String descricao;
+
+    public PratoPrincipal(String nome, double preco, String descricao) {
+        super(nome, preco);
+        this.descricao = descricao;
+    }
+
+    public String getCategoria() {
+        return "Prato Principal";
+    }
+
+    public void exibirDetalhes() {
+        super.exibirDetalhes();
+        System.out.println("Descrição: " + this.descricao);
+        System.out.println();
+    }
 }
