@@ -5,7 +5,8 @@ Este projeto abrange todos os tópicos abordados em sala de aula e tem como obje
 
 ## 🌐 UML
 
-imagem em produção
+![image](https://github.com/BrunaDev/PROJETO_FINAL_POO/assets/72671246/a4ee697f-2521-4bfe-9b1d-c149368b73e4)
+
 
 ## 🖥️ Tecnologias
 
