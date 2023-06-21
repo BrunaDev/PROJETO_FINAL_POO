@@ -1,8 +1,6 @@
 package br.inatel.cdg;
 
-import java.io.PrintStream;
-
-abstract class ItemMenu {
+public abstract class ItemMenu {
     protected String nome;
     protected double preco;
 
@@ -22,9 +20,7 @@ abstract class ItemMenu {
     public abstract String getCategoria();
 
     public void exibirDetalhes() {
-        PrintStream var10000 = System.out;
-        String var10001 = this.getCategoria();
-        var10000.println(var10001 + ": " + this.nome);
-        System.out.println("Preço: R$" + this.preco);
+        System.out.println(getCategoria() + ": " + nome);
+        System.out.println("Preço: R$" + preco);
     }
 }

@@ -3,8 +3,6 @@ package br.inatel.cdg;
 import java.util.Scanner;
 
 public class RestauranteSimulacao {
-    public RestauranteSimulacao() {
-    }
 
     public static void main(String[] args) {
         Cardapio cardapio = new Cardapio();
@@ -48,9 +46,6 @@ public class RestauranteSimulacao {
             if (input.equalsIgnoreCase("fim")) {
                 pedido.exibirPedido();
                 pedido.salvarPedidoEmArquivo("pedido.txt");
-                Pedido pedidoCarregado = new Pedido();
-                pedidoCarregado.carregarPedidoDeArquivo("pedido.txt");
-                pedidoCarregado.exibirPedido();
                 return;
             }
 

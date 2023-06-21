@@ -1,6 +1,6 @@
 package br.inatel.cdg;
 
-class PratoPrincipal extends ItemMenu {
+public class PratoPrincipal extends ItemMenu {
     private final String descricao;
 
     public PratoPrincipal(String nome, double preco, String descricao) {
@@ -8,13 +8,15 @@ class PratoPrincipal extends ItemMenu {
         this.descricao = descricao;
     }
 
+    @Override
     public String getCategoria() {
         return "Prato Principal";
     }
 
+    @Override
     public void exibirDetalhes() {
         super.exibirDetalhes();
-        System.out.println("Descrição: " + this.descricao);
+        System.out.println("Descrição: " + descricao);
         System.out.println();
     }
 }

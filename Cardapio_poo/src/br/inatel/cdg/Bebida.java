@@ -2,7 +2,7 @@ package br.inatel.cdg;
 
 import java.io.PrintStream;
 
-class Bebida extends ItemMenu {
+public class Bebida extends ItemMenu {
     private boolean alcoolica;
     private String descricao;
 

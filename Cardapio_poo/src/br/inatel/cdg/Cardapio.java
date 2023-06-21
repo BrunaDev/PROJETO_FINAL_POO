@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-class Cardapio {
+public class Cardapio {
     private List<ItemMenu> itens = new ArrayList();
 
     public Cardapio() {
@@ -29,13 +29,15 @@ class Cardapio {
     public ItemMenu buscarItem(String nome) {
         Iterator var2 = this.itens.iterator();
 
-        while(var2.hasNext()) {
-            ItemMenu item = (ItemMenu)var2.next();
-            if (item.getNome().equalsIgnoreCase(nome)) {
-                return item;
+        ItemMenu item;
+        do {
+            if (!var2.hasNext()) {
+                return null;
             }
-        }
 
-        return null;
+            item = (ItemMenu)var2.next();
+        } while(!item.getNome().equalsIgnoreCase(nome));
+
+        return item;
     }
 }
