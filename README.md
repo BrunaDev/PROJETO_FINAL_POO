@@ -14,6 +14,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java](https://www.java.com/pt-BR/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [VSCode](https://code.visualstudio.com)
 - [ChatGPT](https://openai.com/blog/chatgpt)
 
 ## Autores
