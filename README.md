@@ -17,6 +17,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [VSCode](https://code.visualstudio.com)
 - [ChatGPT](https://openai.com/blog/chatgpt)
 
+## 🎥 Vídeo Explicativo - apresentação gravada
+- [Download do vídeo](https://github.com/BrunaDev/PROJETO_FINAL_POO/blob/main/Projeto_POO_vídeo.mkv)
+- [Link do Drive](https://drive.google.com/file/d/1mQ14vaFa6s2np3eO1E__MP0-xGnXXLRW/view?usp=sharing)
+  
+
 ## Autores
 <table>
   <tr>
